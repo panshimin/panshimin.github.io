@@ -1,9 +1,9 @@
 # Site settings
-title: panshimin blog
+title: Shimin's blog
 SEOTitle: 潘世民的博客
 header-img: img/post-bg-desk.jpg
 email: panshimin111@163.com
-description: "Every failure is leading towards success."
+description: "Stay hungry, stay foolish"
 keyword: "潘世民的博客, panshimin, iOS, Apple, Flutter, Objective-C, Swift"
 url: "http://panshimin.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
