@@ -4,7 +4,7 @@ title:      NSTimer 循环引用解决方案
 subtitle: 
 date:       2017-08-10
 author:     潘世民
-header-img:  img/2017-08-10/2017-08-10-bg.jpg
+header-img:  img/2017-08-10/2017-08-10-background.jpeg
 catalog: true
 tags:
     - NSTimer
