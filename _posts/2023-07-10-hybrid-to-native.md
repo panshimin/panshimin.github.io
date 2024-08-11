@@ -89,7 +89,7 @@ heading 标题节点，等同与 paragraph 节点，只是样式上的扩展
 详细定义
 ![heading_node_define](/img/2023-07-10/heading_node_define.jpg)
 ###### JSON 结构示例
-``` json
+```
 {
     "type": "heading",
     "id": "7af38973-3787-41b3-bd75-0ed3a1edfafd",
@@ -118,7 +118,7 @@ image 节点就是一个原子节点
 image 节点的详细定义 
 ![图片节点](/img/2023-07-10/image_node_define.jpg)
 ###### JSON 结构
-``` json
+``` 
 {
     "type": "image",
     "id": "7",
@@ -150,7 +150,7 @@ card 节点，第三方的节点绝大部分都是通过 card 节点承接的；
 详细定义
 ![card_node_define](/img/2023-07-10/card_node_define.jpg)
 ###### JSON 结构
-``` json
+``` 
 {
     "id": "10e7d5c0843db50441f0a6ce1a6eb38f",
     "type": "card",
@@ -168,7 +168,7 @@ card 节点，第三方的节点绝大部分都是通过 card 节点承接的；
 其他的原子节点如`video`、`code_block`等等节点和`image`、`card` 节点的定义差不多，就不在列举le。
 
 完整的一个 json 结构
-``` json
+``` 
 {
     "type": "article",
     "id": "19201404",
@@ -509,7 +509,7 @@ card 节点，第三方的节点绝大部分都是通过 card 节点承接的；
 详细定义
 ![mark_bold_define](/img/2023-07-10/mark_bold_define.jpg)
 ###### JSON 结构
-``` json
+```
 {
     "id": "6",
     "type": "paragraph",
@@ -535,7 +535,7 @@ Example:
 end_index 为 10；   
 实体词对应的 icon 图标存在了客户端，当识别到 mark 是 entity_word 时，将实体词对应的文字替换到 start_index ~ end_index - 1 的位置；同时将实体词对用的图标替换到 end_index - 1 ~ end_index ;
 ###### JSON 结构
-``` json
+```
 {
     "id": "14",
     "type": "paragraph",
